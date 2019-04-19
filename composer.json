@@ -1,0 +1,31 @@
+{
+  "name": "refiner",
+  "type": "web framework",
+  "description": "Refiner is a minimalistic web framework that helps your build web applications much faster while focusing in simplicity and efficiency",
+  "keywords": [
+    "refiner",
+    "refiner framework "
+  ],
+  "homepage": "https://github.com/kekee254/refiner",
+  "license": "MIT",
+  "require-dev": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": [
+        "home/",
+        "application/base/",
+        "application/model/",
+        "application/controller/",
+        "application/bundle/",
+        "application/bundle/env/",
+        "application/bundle/HTTP/",
+        "application/bundle/RefinerQueryBuilder/",
+        "application/bundle/RefinerQueryBuilder/AdapterSettings/",
+        "application/bundle/RefinerQueryBuilder/QueryExtension/",
+        "application/bundle/RefinerQueryBuilder/RefinerDI/"
+      ]
+    }
+  }
+}
